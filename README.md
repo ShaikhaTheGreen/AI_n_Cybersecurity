@@ -47,7 +47,7 @@ To follow along, you need:
    ```
 
 2. **Explore the Content**:
-   Open the `notebooks` folder to browse Jupyter notebooks and their corresponding descriptions.
+   Open any of the `.ipynb` files at the repository root to browse the notebooks. Supporting CSV data lives in [`datasets/`](datasets/).
 
 ---
 
@@ -57,9 +57,11 @@ You can run all the examples on Google Colab without needing to set up a local P
 
 ### Step 1: Open the Notebook in Google Colab
 
-1. Navigate to the `notebooks` folder in this repository.
-2. Click on any `.ipynb` file you wish to run (e.g., `Network_Traffic_for_Anomaly_Detection.ipynb`).
-3. In the GitHub preview, click the **"Open in Colab"** button at the top (or copy the notebook URL and open it directly in [Google Colab](https://colab.research.google.com/)).
+1. From the repository root, click any `.ipynb` file you wish to run:
+   - [`Phishing_Detection_Simulation.ipynb`](Phishing_Detection_Simulation.ipynb)
+   - [`Network_Traffic_for_Anomaly_Detection.ipynb`](Network_Traffic_for_Anomaly_Detection.ipynb)
+   - [`Real_Time_Network_Threat_Detection.ipynb`](Real_Time_Network_Threat_Detection.ipynb)
+2. In the GitHub preview, click the **"Open in Colab"** button at the top (or copy the notebook URL and open it directly in [Google Colab](https://colab.research.google.com/)).
 
 ### Step 2: Connect to Google Colab Runtime
 
@@ -68,10 +70,7 @@ You can run all the examples on Google Colab without needing to set up a local P
 
 ### Step 3: Install Dependencies
 
-Run the first cell in the notebook to install the required Python packages. For example:
-```python
-!pip install -r requirements.txt
-```
+Each notebook installs its own dependencies in the first cell using `!pip install` — typically `pandas`, `scikit-learn`, `numpy`, and `matplotlib`. Just run the first cell.
 
 ### Step 4: Download Datasets
 
@@ -98,12 +97,17 @@ Save the notebook and results back to your Google Drive or local machine as need
 
 ```plaintext
 AI_n_Cybersecurity/
-├── datasets/             # Datasets for examples
-├── notebooks/            # Jupyter notebooks with practical examples
-├── scripts/              # Python scripts for utilities
-├── README.md             # Project documentation
-├── LICENSE               # Licensing information
-└── CONTRIBUTING.md       # Contribution guidelines
+├── Phishing_Detection_Simulation.ipynb         # Logistic regression on labeled emails
+├── Network_Traffic_for_Anomaly_Detection.ipynb # Anomaly detection on flow records
+├── Real_Time_Network_Threat_Detection.ipynb    # Streaming threat detection demo
+├── datasets/                                   # CSV datasets for the notebooks above
+│   ├── emails_dataset.csv
+│   ├── network_traffic.csv
+│   └── real_time_traffic.csv
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+└── CODE_OF_CONDUCT.md
 ```
 
 ---
