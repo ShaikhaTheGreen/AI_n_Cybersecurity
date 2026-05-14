@@ -130,4 +130,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-Feel free to raise issues or submit feature requests through the Issues tab in this repository. Thank you for exploring AI and Cybersecurity with us!
+## Author
+
+**Dr. Shaikhah Alkhadhr** — Assistant Professor, Department of Information Science, Kuwait University. Ph.D. in Computer Science and Engineering, Penn State (2023). Research at the intersection of AI safety, AI for cybersecurity, and scientific machine learning.
+
+- Personal site: <https://shaikhathegreen.github.io>
+- KU faculty page: <https://www.ku.edu.kw/user/2227>
+- ORCID: [0000-0001-5938-2953](https://orcid.org/0000-0001-5938-2953)
+- More work: [HybridGuard](https://github.com/ShaikhaTheGreen/HybridGuard) · [Device-Anatomy](https://github.com/ShaikhaTheGreen/Device-Anatomy)
